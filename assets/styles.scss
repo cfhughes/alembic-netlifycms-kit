@@ -1,0 +1,17 @@
+---
+title: false
+styles: true
+---
+
+@import "alembic";
+
+.logo {
+  display: inline-block;
+  line-height: 0;
+  max-height: 4rem;
+  @include flexbox;
+  @include align-items(center);
+  img {
+    max-height: 8rem;
+  }
+}
