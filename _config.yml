@@ -21,7 +21,7 @@ plugins:
 # Site settings
 url: 'https://mydomain.com'
 baseurl: ''
-title: 'Albuquerque International Rattlesnake Museum'
+title: 'American International Rattlesnake Museum'
 description: >- # this means to ignore newlines until "baseurl:"
   The Rattlesnake Museum is an exciting and educational experience for the
   entire family. This animal conservation museum reveals the hundreds of ways
@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   lives. Examples are given through artifacts, memorabilia, and the largest
   collection of different species of live rattlesnakes in the world.
 permalink: pretty
-logo: "/assets/uploads/logo_tab.png"
+#logo: "/assets/uploads/logo_tab.png"
 
 # Pagination
 paginate: 5
