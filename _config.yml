@@ -54,3 +54,10 @@ collections:
     feature_text: |
       Welcome to my blog
     feature_image: "https://picsum.photos/2560/600?image=866"
+  animals:
+    title: "Exhibit Animals"
+    output: true
+    description: "Animals in the Museum"
+  items:
+    title: "Exhibit Items"
+    output: true
