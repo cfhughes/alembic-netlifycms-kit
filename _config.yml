@@ -57,7 +57,9 @@ collections:
   animals:
     title: "Exhibit Animals"
     output: true
+    create: true
     description: "Animals in the Museum"
   items:
     title: "Exhibit Items"
     output: true
+    create: true
