@@ -1,0 +1,25 @@
+{% if site.navigation_header %}
+<div class="container">
+  <div class="row site-title align-items-center justify-content-between d-flex">
+    <h2>{{ site.title }}</h2>
+  </div>
+  <div class="row justify-content-end">
+  <nav>
+    <ul class="nav"
+      {% for item in site.navigation_header %}
+
+        {% if item[1] contains '://' %}
+          {% assign url = item[1] %}
+        {% else %}
+          {% assign url = item[1] | relative_url %}
+        {% endif %}
+        <li class="nav-item {% if item[1] == page.url %}menu-active{% endif %}">
+          <a class="nav-link" href="{{ url }}">{{ item[0] }}</a>
+        </li>
+      {% endfor %}
+  </nav>
+  </div>
+</div>
+{% else %}
+  {% include nav-default.html %}
+{% endif %}
