@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baja California Rattlesnake
-feature_image: ''
+feature_image: /assets/uploads/bcr.jpg
 categories: snakes
 ---
 ![](/assets/uploads/bcr.jpg)
