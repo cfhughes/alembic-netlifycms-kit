@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Canebrake Rattlesnake
-feature_image: ''
+feature_image: /assets/uploads/cbr.jpg
 categories: snakes
 ---
 ![](/assets/uploads/cbr.jpg)
