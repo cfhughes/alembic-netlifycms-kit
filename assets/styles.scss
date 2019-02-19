@@ -9,7 +9,7 @@ styles: true
   margin-bottom: 1.6rem;
   text-align: center;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center 25%;
   .container {
     min-height: 35vh;
     max-width: 60%;
@@ -22,7 +22,7 @@ styles: true
 }
 
 .feature-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #98939033;
     color: #fff;
     width: 100%;
     height: 100%;
@@ -33,7 +33,7 @@ styles: true
   font-weight: 600;
   padding: 15px;
   font-size: 25px;
-  transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55);
+  transition: all 0.5s;
 }
 
 h2.title-scrolled{
@@ -55,14 +55,31 @@ h2.title-scrolled{
 }
 
 .header-scrolled {
-  background: rgba(0, 0, 0, 0.8);
+  background: #989390bb;
   transition: all 0.5s;
 }
 
-.nav-item a {
+a {
   color: #eee;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #F3F2EC;
+  color: #383236;
+}
+
+.front-page-card {
+  width: 255px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #D08956;
+}
+
+.card-header {
+  background-color: #B76B4E;
+  color: #F3F2EC;
 }
