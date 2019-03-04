@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About this website
+feature_image: /assets/uploads/img_20190210_172851874.jpg
 ---
 
 ## Fun Museum Facts & Figures
