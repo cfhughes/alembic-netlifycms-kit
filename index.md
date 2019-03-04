@@ -41,4 +41,16 @@ The Rattlesnake Museum is an exciting and educational experience for the entire 
       </div>
     </div>
   {% endfor %}
+  {% for item in site.items %}
+    <div class="col-lg-3 col-md-4 col-6 mb-4">
+      <div class="card border-0 shadow">
+        <a href="{{ item.url }}" class="" >
+           <img class="card-img-top front-page-card" src="{{ item.feature_image }}" alt="{{ item.title }}">
+        </a>
+        <div class="card-body text-center">
+          <h6 class="card-title mb-0">{{ item.title }}</h6>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 </div>
